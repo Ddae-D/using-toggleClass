@@ -28,7 +28,6 @@ body {
 .content-main #content-sub h1::after {
     content: " toggleClass";
     font-size: 1.1em;
-    border: 2px solid white;
 }
 
 .content-main #content-sub h1 {
@@ -45,6 +44,12 @@ body {
 .content-main #content-img #imgBee {
     border-radius: 100%;
     margin: 2% 0 2% 0;
+}
+
+.content-main #content-img #imgBee.styleModify {
+    border-radius: 100%;
+    margin: 2% 0 2% 0;
+    filter: blur(2px);
 }
 
 .content-main #content-img #imgBee:hover {
