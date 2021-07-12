@@ -13,8 +13,7 @@ body {
 .content-main {
     margin: auto;
     margin-top: 2%;
-    width: 90%;
-    border: 2px dotted red;
+    width: 95%;
 }
 
 .content-main #content-sub {
@@ -23,5 +22,31 @@ body {
     width: 90%;
     color: white;
     font-size: 1.5em;
+    font-family: fantasy;
+}
+
+.content-main #content-sub h1::after {
+    content: " toggleClass";
+    font-size: 1.1em;
+    border: 2px solid white;
+}
+
+.content-main #content-sub h1 {
+    margin-bottom: 2%;
+}
+
+.content-main #content-img {
+    margin: auto;
+    width: 100%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.content-main #content-img #imgBee {
+    border-radius: 100%;
+    margin: 2% 0 2% 0;
+}
+
+.content-main #content-img #imgBee:hover {
     border: 2px solid white;
 }
